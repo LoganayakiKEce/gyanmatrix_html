@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Registration</h1>
+        <form>
+            <label for="user">Student Name: </label>
+            <input minlength="4" maxlength="15" name="user" type="text" id="user" placeholder="Enter your name" autocomplete="off"/>
+            <br><br>
+            <label for="class">Class
+            <select name="class" id="class">
+                <option value=""></option>
+                <option value="ECE">ECE</option>
+                <option value="CCE">CCE</option>
+                <option value="CSE">CSE</option>
+                <option value="IT">IT</option>
+            </select>
+            </label>
+            <br/><br>
+            <label for="type">
+                In which you are interested?<br>
+                Placement<input type="radio" name="type" value="placement" id="type">
+                Enterpraneur<input type="radio" name="type" value="entrepeneur" id="type">
+                Higher studies<input type="radio" name="type" value="higher studies" id="type">
+                </label><br><br>
+        <button type="submit">Submit</button>
+            </form>
+    </body>
+</html>
